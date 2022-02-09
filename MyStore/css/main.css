@@ -8,6 +8,7 @@ body {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 24px;
+  margin-top: 24px;
 }
 
 .section {
@@ -21,6 +22,42 @@ body {
 }
 
 /*---- Menu ----*/
+.logo {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 100;
+}
+
+.menu-bar {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /*This is important*/
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 24px;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+}
 
 /*---- Hero Section ----*/
 .hero-title {
@@ -88,12 +125,15 @@ body {
 }
 
 .product-item {
+  position: relative;
+  width: 30% ;
   margin-bottom: 16px;
-  margin-bottom:16px;
+  padding: 0px 16px;
 }
 
 .product-item-image {
-  width: calc(100% / 3);
+  width: 100%;
+  height: 230px;
   font-size: 18px;
   font-weight: 600;
   border-radius: 18px;
@@ -104,4 +144,24 @@ body {
   margin-top: 24px;
 }
 
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-label {
+  position: absolute;
+  background-color: #f87060;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px;
+  width: fit-content;
+  top: 24px;
+  left: 8px
+}
 /*---- About Section ----*/
+
+
+
