@@ -1,0 +1,240 @@
+#top_section_of_page {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+#logo-size {
+    height: auto;
+}
+
+
+
+.nav_button_design {
+    color: black;
+    padding-left: 20px;
+}
+
+#banner-area {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: 
+        "banner-image banner-description";
+}
+    
+
+#banner-image-settings {
+    grid-area: banner-image;
+    width: 100%;
+    padding: 32px 24px;
+}
+
+#banner-image-description {
+    grid-area: banner-description;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 48px;
+}
+
+#common-info-area {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+    "info-left info-right";
+}
+
+#common-info-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#left-info-image {
+    grid-area: info-left;
+    padding: 32px 24px;
+    width: 100%;
+}
+
+#left-info-heading {
+    grid-area: left;
+    padding-left: 24px;
+}
+
+#left-info-paragraph {
+    grid-area: left;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+
+#orientation-info {
+    grid-area: info-right;
+    padding-left: 48px;
+}
+
+#orientation-info-layer-one {
+    display: flex;
+}
+
+#orientation-info-layer-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 24px;
+}
+
+#orientation-image {
+    width: 35%;
+    height: auto;
+}
+
+#campus-info {
+    grid-area: info-right;
+    padding-left: 48px;
+    padding-top: 12px;
+}
+
+#campus-info-layer-one {
+    display: flex;
+}
+
+#campus-info-layer-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 24px;
+}
+
+#campus-image {
+    width: 35%;
+    height : auto;
+}
+
+#guest-info {
+    grid-area: info-right;
+    padding-left: 48px;
+    padding-top: 12px;
+}
+
+#guest-info-layer-one {
+    display:flex;
+}
+
+#guest-info-layer-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 24px;
+}
+
+#guest-image {
+    width: 35%;
+    height : auto;
+}
+
+#three-column-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "one two three"
+        "four five six";
+    gap: 32px;
+    justify-content: center;
+    padding: 0 72px 32px 72px;
+}
+
+#one {
+    grid-area: one;
+    background-color: burlywood;
+}
+
+#one-para {
+    grid-area: one;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+#two {
+    grid-area: two;
+    background-color: burlywood;
+}
+
+#two-para {
+    grid-area: two;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+#three {
+    grid-area: three;
+    background-color: burlywood;
+}
+
+#three-para {
+    grid-area: three;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+#four {
+    grid-area: four;
+    background-color: burlywood;
+}
+
+#four-para {
+    grid-area: four;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+} 
+
+#five {
+    grid-area: five;
+    background-color: burlywood;
+}
+
+#five-para {
+    grid-area: five;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+#six {
+    grid-area: six;
+    background-color: burlywood;
+}
+
+#six-para {
+    grid-area: six;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+#thesis-exhibit-area {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+    "thesis-video fisma-related-content";
+}
+
+#urban-video {
+    grid-area: thesis-video;
+    width: 100%;
+    height: auto;
+    padding: 0px 24px 24px 24px;
+}
+
+#fisma-related-content {
+    grid-area: fisma-related-content;
+}
