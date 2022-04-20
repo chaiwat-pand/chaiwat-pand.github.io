@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevChaiwat Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="#" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            <strong>FitnessTracker</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">An Exercise Tracker</p>
+        <img src="./images/portfolio-01.png" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            The FitnessTracker is single webpage application allowing people to record their exercise activities. Users
+            are
+            able
+            to store
+            their exercise details, update specific details of any given exercise, and delete the ones that are no
+            longer needed.
+        </p>
+        <p>
+            The front-end part of the Reality is created using React, a popular JavaScript library for building user
+            interfaces
+            based on UI components. As for the back-end, it was created using Node.js and Express.js.
+        </p>
+        <p>
+            In order for users to record their exercise activities, they will first need to sign-up and then log-in
+            first. Once they
+            have logged in, they will then be able to update both their personal profile and activities information.
+        </p>
+        <p>
+            All of the user's data will be stored on MongoDB, a NoSQL database program which uses JSON-like documents.
+            The front-end
+            and back-end were connected with a JavaScript library known as Axios. In this project, Axios was used to
+            make HTTP
+            requests and responses from Node.js.
+        </p>
+        <p>
+            <a href='https://chaiwat-pand.github.io/FitnessExpert/index.html' class='social-list__item'
+                style="color: blueviolet; text-decoration: none;">
+                <stong>View Project</stong>
+            </a>
+        </p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="mailto:chaiwat.pand@gmail.com" class="footer__link">chaiwat.pand@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link"
+                    href="https://drive.google.com/file/d/1X9c224PydHKdnoeT2J_zXMzbglgKr4mP/view?usp=sharing">
+                    <i class="fab fa-grav"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/chaiwat-pand/chaiwat-pand.github.io">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
