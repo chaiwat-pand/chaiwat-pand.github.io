@@ -35,7 +35,7 @@ require("./passports/passportConfig")(passport);
 app.use('/users', userRouter);
 
 const boot = async () => {
-    const URI = 'mongodb+srv://m001-student:m001-mongodb-basics@sandbox.vwkco.mongodb.net/mernapp?retryWrites=true&w=majority'
+    // const URI = your mongoDB access Link
     mongoose.connect(URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
